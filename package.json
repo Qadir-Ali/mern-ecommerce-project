@@ -1,0 +1,21 @@
+{
+  "name": "eccommerce",
+  "version": "1.0.0",
+  "description": "mern-eccommerce-app",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start" : "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qadir-Ali/mern-ecommerce-project.git"
+  },
+  "author": "QadirAli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qadir-Ali/mern-ecommerce-project/issues"
+  },
+  "homepage": "https://github.com/Qadir-Ali/mern-ecommerce-project#readme"
+}
